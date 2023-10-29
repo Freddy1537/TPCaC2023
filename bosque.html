@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOSQUES</title>
+    <!-- Enlace a Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navbar (copiado desde el index.html) -->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="./logos/camino del viajero.png" alt="Logo">
+        </div>
+        <div class="navbar-links">
+            <a href="index.html">Inicio</a>
+            <a href="index.html#quienes-somos">Quiénes Somos</a>
+            <a href="index.html#contactarnos">Contactarnos</a>
+            <a href="index.html#registrarse">Registrarse</a>
+            <a href="#" id="enlace-iniciar-sesion">Iniciar Sesión</a>
+        </div>
+
+        <!-- Formulario de Inicio de Sesión (inicialmente oculto) -->
+        <div id="formulario-inicio-sesion" style="display: none;">
+            <h2>Iniciar Sesión</h2>
+            <form>
+                <label for="username">Usuario:</label>
+                <input type="text" id="username" name="username" required><br>
+
+                <label for="password">Contraseña:</label>
+                <input type="password" id="password" name="password" required><br>
+
+                <button type="submit">Iniciar Sesión</button>
+            </form>
+        </div>
+    </nav>
+    
+
+    <!-- Contenido de la subpágina -->
+    <div class="container mt-5">
+        <h1>BOSQUES</h1>
+        <div class="row">
+            <!-- Imagen 1 -->
+            <div class="col-md-6">
+                <div class="card">
+                    <img src="images/grid/bosque/araucaria-chilena.jpg" class="card-img-top" alt="Araucaria Chile">
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium sed quibusdam, aliquid dolorum rerum blanditiis minus quisquam libero exercitationem nemo commodi totam? Quae voluptatem fuga est. Rerum beatae atque recusandae.</p>
+                        <a href="#" class="btn btn-primary">Leer más</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card">
+                    <img src="images/grid/bosque/bambus-sagano-japon.jpg" class="card-img-top" alt="Bambu Japon">
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis laboriosam rerum aspernatur facere! Dolorem quidem itaque amet ad id minus commodi, corporis praesentium sed nemo ab voluptatibus sapiente possimus atque.</p>
+                        <a href="#" class="btn btn-primary">Leer más</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card">
+                    <img src="images/grid/bosque/campiña-inglesa.jpg" class="card-img-top" alt="Campiña Inglesa">
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, iste, eaque culpa vitae ipsam itaque ea odit accusantium quisquam et, totam asperiores mollitia quos delectus officiis eius. Nisi, suscipit deserunt.</p>
+                        <a href="#" class="btn btn-primary">Leer más</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card">
+                    <img src="images/grid/bosque/corazon-bretaña.jpg" class="card-img-top" alt="Corazon Bretaña">
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis laboriosam rerum aspernatur facere! Dolorem quidem itaque amet ad id minus commodi, corporis praesentium sed nemo ab voluptatibus sapiente possimus atque.</p>
+                        <a href="#" class="btn btn-primary">Leer más</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card">
+                    <img src="images/grid/bosque/croacia-parque-plitvice.jpg" class="card-img-top" alt="Croacia">
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis quidem ipsam cum iste perspiciatis perferendis corrupti illum officiis ex in dignissimos, doloribus fugit deleniti temporibus magni? Repellendus deserunt facere consequatur!</p>
+                        <a href="#" class="btn btn-primary">Leer más</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card">
+                    <img src="images/grid/bosque/giant-forest-california.jpg" class="card-img-top" alt="California">
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis laboriosam rerum aspernatur facere! Dolorem quidem itaque amet ad id minus commodi, corporis praesentium sed nemo ab voluptatibus sapiente possimus atque.</p>
+                        <a href="#" class="btn btn-primary">Leer más</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card">
+                    <img src="images/grid/bosque/nueva-zelanda-bosque-jade.jpg" class="card-img-top" alt="Nueva Zelanda">
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel id cumque eaque accusantium ipsum beatae inventore voluptas minima, quam totam nemo laborum dicta voluptatum esse illo, reiciendis tenetur nobis perspiciatis?</p>
+                        <a href="#" class="btn btn-primary">Leer más</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card">
+                    <img src="images/grid/bosque/ontario-canada.jpg" class="card-img-top" alt="Canada">
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis laboriosam rerum aspernatur facere! Dolorem quidem itaque amet ad id minus commodi, corporis praesentium sed nemo ab voluptatibus sapiente possimus atque.</p>
+                        <a href="#" class="btn btn-primary">Leer más</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card">
+                    <img src="images/grid/bosque/patagonia-argentina.jpg" class="card-img-top" alt="Patagonia Argentina">
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem ipsum expedita sed repellendus officia aperiam eius, soluta eos enim magni vitae repudiandae quasi asperiores dolorem animi, fugiat, eaque voluptatem provident!</p>
+                        <a href="#" class="btn btn-primary">Leer más</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card">
+                    <img src="images/grid/bosque/selva-negra-alemania.jpg" class="card-img-top" alt="Alemania">
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis laboriosam rerum aspernatur facere! Dolorem quidem itaque amet ad id minus commodi, corporis praesentium sed nemo ab voluptatibus sapiente possimus atque.</p>
+                        <a href="#" class="btn btn-primary">Leer más</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 text-left">
+                    <p>Curso Fullstack Python - Codo a Codo 2023</p>
+                </div>
+                <div class="col-md-6"></div>
+                <div class="col-md-2 text-right">
+                    <p><span class="italic-text">design by</span> <span class="bold-text">FREDDY</span></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Enlace a Bootstrap JS y Popper.js (necesario para ciertas funcionalidades de Bootstrap) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Tu archivo script.js -->
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Sendero del Viajero</title>
+    <!-- Enlace a Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.google.com/specimen/Great+Vibes?subset=latin&noto.script=Latn" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="main-container">
+        <!-- Navbar -->
+        <nav class="navbar">
+            <div class="logo">
+                <img src="./logos/camino del viajero.png" alt="Logo">
+            </div>
+            <div class="navbar-links">
+                <a href="index.html">Inicio</a>
+                <a href="#quienes-somos">Quiénes Somos</a>
+                <a href="#contactarnos">Contactarnos</a>
+                <a href="#registrarse">Registrarse</a>
+                <a href="#" id="enlace-iniciar-sesion">Iniciar Sesión</a>
+            </div>
+
+            <!-- Formulario de Inicio de Sesión (inicialmente oculto) -->
+            <div id="formulario-inicio-sesion" style="display: none;">
+                <h2>Iniciar Sesión</h2>
+                <form>
+                    <label for="username">Usuario:</label>
+                    <input type="text" id="username" name="username" required><br>
+
+                    <label for="password">Contraseña:</label>
+                    <input type="password" id="password" name="password" required><br>
+
+                    <button type="submit">Iniciar Sesión</button>
+                </form>
+            </div>
+
+        </nav>
+
+        <!-- Carrusel (con Bootstrap) -->
+        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./images/carousel/playa.jpg" class="d-block w-80 mx-auto align-middle" alt="Playas" data-subpage="playa">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Arena, Sol y Playa</h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/carousel/montaña.jpg" class="d-block w-80 mx-auto align-middle" alt="Montaña" data-subpage="montaña">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Nieve, Lagos y Montañas</h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/carousel/megaciudad.jpg" class="d-block w-80 mx-auto align-middle" alt="montaña" data-subpage="megaciudad">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Adrenalina, Luces y Diversion</h5>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+       
+        <div class="container mt-5">
+            <h2 class="title-otros-lugares">Otros Lugares Increibles</h2>
+        </div>
+
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/grid/bosque.jpg" class="card-img-top" alt="Bosques" data-subpage="bosque">
+                        <div class="card-body">
+                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. At a dolor blanditiis alias similique obcaecati aliquam dolore architecto cupiditate rerum aut expedita facere neque temporibus sequi vero, unde repudiandae sunt?</p>
+                            <a href="#" class="btn btn-primary">Leer más</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/grid/catarata.jpg" class="card-img-top" alt="Cataratas" data-subpage="catarata">
+                        <div class="card-body">
+                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. At a dolor blanditiis alias similique obcaecati aliquam dolore architecto cupiditate rerum aut expedita facere neque temporibus sequi vero, unde repudiandae sunt?</p>
+                            <a href="#" class="btn btn-primary">Leer más</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./images/grid/cañon.jpg" class="card-img-top" alt="Cañones" data-subpage="cañon">
+                        <div class="card-body">
+                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. At a dolor blanditiis alias similique obcaecati aliquam dolore architecto cupiditate rerum aut expedita facere neque temporibus sequi vero, unde repudiandae sunt?</p>
+                            <a href="#" class="btn btn-primary">Leer más</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./images/grid/desierto.jpg" class="card-img-top" alt="Desiertos" data-subpage="desierto">
+                        <div class="card-body">
+                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. At a dolor blanditiis alias similique obcaecati aliquam dolore architecto cupiditate rerum aut expedita facere neque temporibus sequi vero, unde repudiandae sunt?</p>
+                            <a href="#" class="btn btn-primary">Leer más</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./images/grid/fiordo.jpg" class="card-img-top" alt="Fiordos" data-subpage="fiordo">
+                        <div class="card-body">
+                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. At a dolor blanditiis alias similique obcaecati aliquam dolore architecto cupiditate rerum aut expedita facere neque temporibus sequi vero, unde repudiandae sunt?</p>
+                            <a href="#" class="btn btn-primary">Leer más</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./images/grid/glaciar.jpg" class="card-img-top" alt="Glaciares" data-subpage="glaciar">
+                        <div class="card-body">
+                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. At a dolor blanditiis alias similique obcaecati aliquam dolore architecto cupiditate rerum aut expedita facere neque temporibus sequi vero, unde repudiandae sunt?</p>
+                            <a href="#" class="btn btn-primary">Leer más</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./images/grid/lago.jpg" class="card-img-top" alt="Lagos" data-subpage="lago">
+                        <div class="card-body">
+                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. At a dolor blanditiis alias similique obcaecati aliquam dolore architecto cupiditate rerum aut expedita facere neque temporibus sequi vero, unde repudiandae sunt?</p>
+                            <a href="#" class="btn btn-primary">Leer más</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./images/grid/joya-arquitectonica.jpg" class="card-img-top" alt="Joyas Arquitectonicas" data-subpage="joya-arquitectonica">
+                        <div class="card-body">
+                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. At a dolor blanditiis alias similique obcaecati aliquam dolore architecto cupiditate rerum aut expedita facere neque temporibus sequi vero, unde repudiandae sunt?</p>
+                            <a href="#" class="btn btn-primary">Leer más</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./images/grid/selva.jpg" class="card-img-top" alt="Selvas" data-subpage="selva">
+                        <div class="card-body">
+                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. At a dolor blanditiis alias similique obcaecati aliquam dolore architecto cupiditate rerum aut expedita facere neque temporibus sequi vero, unde repudiandae sunt?</p>
+                            <a href="#" class="btn btn-primary">Leer más</a>
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+    </div>
+    
+    <section id="quienes-somos" class="container mt-5">
+        <h2 class="title-quienes-somos">¿QUIENES SOMOS?</h2>
+        <div class="fondo-opaco">
+            <div class="row mt-3">
+                <!-- Columna de texto (66% del ancho) -->
+                <div class="col-md-8">
+                    <p>Este blog esta dedicado a los amantes de la aventura, los viajes y aquellos soñadores que quieren o desean conocer todos los lugares magnifico con los que cuenta nuestro planeta. Nos alegra el poder acercarles aquellos lugares que desean visitar o conocer, tal por elmomento en fotos pero despues hacerlo personalmente. Si quiere formar parte de este grupo de soñadores, estaremos encantado de contar con tus experiencia, vivencias y apoyo. 
+                        
+                    Si quieres que subamos nuevos lugares o actividades, no dudes en contactarnos y dejarnos tus recomendaciones, sugerencias y todo aquello que nos permita mejorar dia a dia. Este blog esta dedicado a ustedes y nos servira para poder conocer los deseos de nuestros visitantes para poder brindarles la mejor info disponible y la mas actualizada, Desde ya contamos con vos-
+    
+                    Sean todos sean bienvenidos y vamos a recorrer el mundo!!!</p>
+                    <!-- Agrega más contenido de texto si es necesario -->
+                </div>
+                <!-- Columna de imagen (33% del ancho) -->
+                <div class="col-md-4">
+                    <img src="./logos/camino del viajero.png" alt="Imagen" class="img-fluid" style="height: 400px;">
+                </div>
+            </div>
+        </div>
+        
+        
+    </section>
+
+    <!-- Separador -->
+    <hr class="my-4">
+
+    <section id="registrarse" class="container mb-5">
+        <!-- Sección "Registrarse" con formulario -->
+        <h2 class="title-registrarse">Registrarse</h2>
+        <form id="registro">
+            <div class="row">
+                
+                <div class="col-md-6">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" class="form-control" id="nombre" required>
+                </div>
+                <div class="col-md-6">
+                        <label for="apellido">Apellido</label>
+                        <input type="text" class="form-control" id="apellido" required>
+                </div>
+               
+                <div class="col-md-6">
+                        <label for="usuario">Usuario</label>
+                        <input type="text" class="form-control" id="usuario" required>
+                </div>
+                <div class="col-md-6">
+                        <label for="contraseña">Contraseña</label>
+                        <input type="text" class="form-control" id="contraseña" required>
+                </div>
+               
+                <div class="col-md-6">
+                        <label for="email">Email</label>
+                        <input type="text" class="form-control" id="email" required>
+                </div>
+                <div class="col-md-6">
+                        <label for="repetir-email">Repetir Email</label>
+                        <input type="text" class="form-control" id="repetir-email" required>
+                </div>
+                
+                <div class="row mb-3">
+                    <div class="col-md-4">
+                        <label for="fecha-nacimiento">Fecha de Nacimiento</label>
+                        <input type="text" class="form-control" id="fecha-nacimiento" placeholder="DD/MM/AAAA" required>
+                    </div>
+
+                    <div class="col-md-4">
+                        <label for="pais">Pais</label>
+                        <input type="text" class="form-control" id="pais" required>
+                    </div>
+    
+                    <div class="col-md-4">
+                        <label for="ocupacion">Ocupacion</label>
+                        <input type="text" class="form-control" id="ocupacion" required>
+                    </div>
+                </div>
+
+                <!-- Comentarios (máximo 500 palabras) -->
+                <div class="row mb-3">
+                    <div class="col-md-12">
+                        <label for="comentarios">Comentarios (máximo 100 palabras)</label>
+                        <textarea class="form-control" id="comentarios" rows="5" maxlength="100"></textarea>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Botón de enviar -->
+            <button type="submit" class="btn btn-primary btn-lg d-block mx-auto">Enviar</button>
+
+        </form>
+    </section>
+
+    <!-- Separador -->
+    <hr class="my-4">
+
+    <section id="contactarnos" class="container mt-5">
+        <h2 class="title-contactarnos mb-3">Contactarnos</h2>
+        <div class="contact-info">
+            <p><strong>Email:</strong> javy7531@hotmail.com.ar</p>
+            <p><strong>WhatsApp:</strong> <img src="./logos/whatsapp.png" alt="WhatsApp Logo"> +5491121590263</p>
+            <p><strong>Instagram:</strong> <img src="./logos/instagram.png" alt="Instagram Logo"> @enelsendero</p>
+            <p><strong>Facebook:</strong> <img src="./logos/Facebook.png" alt="Facebook Logo"> elRincondelViajero</p>
+            <p><strong>YouTube:</strong> <img src="./logos/YouTube.png" alt="YouTube Logo"> elSenderodelViajero</p>
+        </div>
+        
+        <form class="contact-form">
+            <div class="row mb-3">
+                <div class="col-md-4">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" class="form-control" id="nombre-2" required>
+                </div>
+                <div class="col-md-4">
+                    <label for="apellido">Apellido</label>
+                    <input type="text" class="form-control" id="apellido-2" required>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-md-8">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email-2" required>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-md-8">
+                    <label for="comentario">Comentario (máximo 100 palabras)</label>
+                    <textarea class="form-control" id="comentario" rows="4" maxlength="100"></textarea>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </section>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 text-left">
+                    <p>Curso Fullstack Python - Codo a Codo 2023</p>
+                </div>
+                <div class="col-md-6"></div>
+                <div class="col-md-2 text-right">
+                    <p><span class="italic-text">design by</span> <span class="bold-text">FREDDY</span></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    
+    <!-- Enlace a Bootstrap JS y Popper.js (necesario para ciertas funcionalidades de Bootstrap) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Tu archivo script.js -->
+    <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIORDOS</title>
+    <!-- Enlace a Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navbar (copiado desde el index.html) -->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="./logos/camino del viajero.png" alt="Logo">
+        </div>
+        <div class="navbar-links">
+            <a href="index.html">Inicio</a>
+            <a href="index.html#quienes-somos">Quiénes Somos</a>
+            <a href="index.html#contactarnos">Contactarnos</a>
+            <a href="index.html#registrarse">Registrarse</a>
+            <a href="#" id="enlace-iniciar-sesion">Iniciar Sesión</a>
+        </div>
+
+        <!-- Formulario de Inicio de Sesión (inicialmente oculto) -->
+        <div id="formulario-inicio-sesion" style="display: none;">
+            <h2>Iniciar Sesión</h2>
+            <form>
+                <label for="username">Usuario:</label>
+                <input type="text" id="username" name="username" required><br>
+
+                <label for="password">Contraseña:</label>
+                <input type="password" id="password" name="password" required><br>
+
+                <button type="submit">Iniciar Sesión</button>
+            </form>
+        </div>
+    </nav>
+
+    <!-- Contenido de la subpágina -->
+    <div class="container mt-5">
+        <h1>FIORDOS</h1>
+        <div class="row">
+            <!-- Imagen 1 -->
+            <div class="col-md-6">
+                <div class="card">
+                    <img src="images/grid/fiordo/Aurlandsfjord.jpg" class="card-img-top" alt="Fiordo Aurlandfjord">
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium sed quibusdam, aliquid dolorum rerum blanditiis minus quisquam libero exercitationem nemo commodi totam? Quae voluptatem fuga est. Rerum beatae atque recusandae.</p>
+                        <a href="#" class="btn btn-primary">Leer más</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card">
+                    <img src="images/grid/fiordo/Doubtful-Sound.jpg" class="card-img-top" alt="Fiordo Doubtful">
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis laboriosam rerum aspernatur facere! Dolorem quidem itaque amet ad id minus commodi, corporis praesentium sed nemo ab voluptatibus sapiente possimus atque.</p>
+                        <a href="#" class="btn btn-primary">Leer más</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card">
+                    <img src="images/grid/fiordo/fiordo-aisen.jpg" class="card-img-top" alt="Fiordo Aisen">
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis nisi doloremque, debitis alias libero animi mollitia nam magnam labore sequi quos, architecto non rem possimus accusantium adipisci quas illo eveniet?</p>
+                        <a href="#" class="btn btn-primary">Leer más</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card">
+                    <img src="images/grid/fiordo/geirangerfjord.jpg" class="card-img-top" alt="Fiordo Geirangerfjord">
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis laboriosam rerum aspernatur facere! Dolorem quidem itaque amet ad id minus commodi, corporis praesentium sed nemo ab voluptatibus sapiente possimus atque.</p>
+                        <a href="#" class="btn btn-primary">Leer más</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card">
+                    <img src="images/grid/fiordo/hardangerfjord.jpg" class="card-img-top" alt="Fiordo Hardangerfjord">
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis nisi doloremque, debitis alias libero animi mollitia nam magnam labore sequi quos, architecto non rem possimus accusantium adipisci quas illo eveniet?</p>
+                        <a href="#" class="btn btn-primary">Leer más</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card">
+                    <img src="images/grid/fiordo/howe-sound.jpg" class="card-img-top" alt="Fiordo Howe">
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis laboriosam rerum aspernatur facere! Dolorem quidem itaque amet ad id minus commodi, corporis praesentium sed nemo ab voluptatibus sapiente possimus atque.</p>
+                        <a href="#" class="btn btn-primary">Leer más</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card">
+                    <img src="images/grid/fiordo/lysefjord.jpg" class="card-img-top" alt="Fiordo Lysefjord">
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis nisi doloremque, debitis alias libero animi mollitia nam magnam labore sequi quos, architecto non rem possimus accusantium adipisci quas illo eveniet?</p>
+                        <a href="#" class="btn btn-primary">Leer más</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card">
+                    <img src="images/grid/fiordo/milford-sound.jpg" class="card-img-top" alt="Fiordo Milford">
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis laboriosam rerum aspernatur facere! Dolorem quidem itaque amet ad id minus commodi, corporis praesentium sed nemo ab voluptatibus sapiente possimus atque.</p>
+                        <a href="#" class="btn btn-primary">Leer más</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card">
+                    <img src="images/grid/fiordo/Misty-Fjords.jpg" class="card-img-top" alt="Fiordo Mystyfjord">
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis nisi doloremque, debitis alias libero animi mollitia nam magnam labore sequi quos, architecto non rem possimus accusantium adipisci quas illo eveniet?</p>
+                        <a href="#" class="btn btn-primary">Leer más</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card">
+                    <img src="images/grid/fiordo/naeroyfjord.jpg" class="card-img-top" alt="Fiordo Naeroyfjord">
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis laboriosam rerum aspernatur facere! Dolorem quidem itaque amet ad id minus commodi, corporis praesentium sed nemo ab voluptatibus sapiente possimus atque.</p>
+                        <a href="#" class="btn btn-primary">Leer más</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card">
+                    <img src="images/grid/fiordo/nordfjord.jpg" class="card-img-top" alt="Fiordo Nordfjord">
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis nisi doloremque, debitis alias libero animi mollitia nam magnam labore sequi quos, architecto non rem possimus accusantium adipisci quas illo eveniet?</p>
+                        <a href="#" class="btn btn-primary">Leer más</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Repite este bloque para las otras imágenes y textos descriptivos -->
+        </div>
+    </div>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 text-left">
+                    <p>Curso Fullstack Python - Codo a Codo 2023</p>
+                </div>
+                <div class="col-md-6"></div>
+                <div class="col-md-2 text-right">
+                    <p><span class="italic-text">design by</span> <span class="bold-text">FREDDY</span></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Enlace a Bootstrap JS y Popper.js (necesario para ciertas funcionalidades de Bootstrap) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Tu archivo script.js -->
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PLAYAS</title>
+    <!-- Enlace a Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navbar (copiado desde el index.html) -->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="./logos/camino del viajero.png" alt="Logo">
+        </div>
+        <div class="navbar-links">
+            <a href="index.html">Inicio</a>
+            <a href="index.html#quienes-somos">Quiénes Somos</a>
+            <a href="index.html#contactarnos">Contactarnos</a>
+            <a href="index.html#registrarse">Registrarse</a>
+            <a href="#" id="enlace-iniciar-sesion">Iniciar Sesión</a>
+        </div>
+
+        <!-- Formulario de Inicio de Sesión (inicialmente oculto) -->
+        <div id="formulario-inicio-sesion" style="display: none;">
+            <h2>Iniciar Sesión</h2>
+            <form>
+                <label for="username">Usuario:</label>
+                <input type="text" id="username" name="username" required><br>
+
+                <label for="password">Contraseña:</label>
+                <input type="password" id="password" name="password" required><br>
+
+                <button type="submit">Iniciar Sesión</button>
+            </form>
+        </div>
+    </nav>
+
+    <!-- Contenido de la subpágina -->
+    <div class="container mt-5">
+        <h1>PLAYAS</h1>
+        <div class="row">
+        
+            <div class="col-md-6">
+                <div class="card">
+                    <img src="images/grid/playa/bali.jpg" class="card-img-top" alt="Bali">
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium sed quibusdam, aliquid dolorum rerum blanditiis minus quisquam libero exercitationem nemo commodi totam? Quae voluptatem fuga est. Rerum beatae atque recusandae.</p>
+                        <a href="#" class="btn btn-primary">Leer más</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card">
+                    <img src="images/grid/playa/bora bora.jpg" class="card-img-top" alt="Bora Bora">
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis laboriosam rerum aspernatur facere! Dolorem quidem itaque amet ad id minus commodi, corporis praesentium sed nemo ab voluptatibus sapiente possimus atque.</p>
+                        <a href="#" class="btn btn-primary">Leer más</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card">
+                    <img src="images/grid/playa/boracay.jpg" class="card-img-top" alt="Boracay">
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit dolorem neque, minus officia culpa blanditiis, odit quis laborum ducimus repellat iste praesentium voluptatibus obcaecati reiciendis dolore odio. Perferendis, incidunt beatae.</p>
+                        <a href="#" class="btn btn-primary">Leer más</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card">
+                    <img src="images/grid/playa/eagle beach.jpg" class="card-img-top" alt="Eagle Beach">
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis laboriosam rerum aspernatur facere! Dolorem quidem itaque amet ad id minus commodi, corporis praesentium sed nemo ab voluptatibus sapiente possimus atque.</p>
+                        <a href="#" class="btn btn-primary">Leer más</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card">
+                    <img src="images/grid/playa/ibiza.jpg" class="card-img-top" alt="Ibiza">
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit dolorem neque, minus officia culpa blanditiis, odit quis laborum ducimus repellat iste praesentium voluptatibus obcaecati reiciendis dolore odio. Perferendis, incidunt beatae.</p>
+                        <a href="#" class="btn btn-primary">Leer más</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card">
+                    <img src="images/grid/playa/Isla_Mujeres.jpg" class="card-img-top" alt="Isla Mujeres">
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis laboriosam rerum aspernatur facere! Dolorem quidem itaque amet ad id minus commodi, corporis praesentium sed nemo ab voluptatibus sapiente possimus atque.</p>
+                        <a href="#" class="btn btn-primary">Leer más</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card">
+                    <img src="images/grid/playa/Isola_dei_Coniglio_Lampedusa.JPG" class="card-img-top" alt="Isola dei Coniglio">
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit dolorem neque, minus officia culpa blanditiis, odit quis laborum ducimus repellat iste praesentium voluptatibus obcaecati reiciendis dolore odio. Perferendis, incidunt beatae.</p>
+                        <a href="#" class="btn btn-primary">Leer más</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card">
+                    <img src="images/grid/playa/Koh-Yao-Yai.jpg" class="card-img-top" alt="Koh Yao Yai">
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis laboriosam rerum aspernatur facere! Dolorem quidem itaque amet ad id minus commodi, corporis praesentium sed nemo ab voluptatibus sapiente possimus atque.</p>
+                        <a href="#" class="btn btn-primary">Leer más</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card">
+                    <img src="images/grid/playa/maldivas.jpg" class="card-img-top" alt="Maldivas">
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit dolorem neque, minus officia culpa blanditiis, odit quis laborum ducimus repellat iste praesentium voluptatibus obcaecati reiciendis dolore odio. Perferendis, incidunt beatae.</p>
+                        <a href="#" class="btn btn-primary">Leer más</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card">
+                    <img src="images/grid/playa/miami beach.jpg" class="card-img-top" alt="Miami Beach">
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis laboriosam rerum aspernatur facere! Dolorem quidem itaque amet ad id minus commodi, corporis praesentium sed nemo ab voluptatibus sapiente possimus atque.</p>
+                        <a href="#" class="btn btn-primary">Leer más</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card">
+                    <img src="images/grid/playa/nha trang.jpg" class="card-img-top" alt="Nha Trang">
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit dolorem neque, minus officia culpa blanditiis, odit quis laborum ducimus repellat iste praesentium voluptatibus obcaecati reiciendis dolore odio. Perferendis, incidunt beatae.</p>
+                        <a href="#" class="btn btn-primary">Leer más</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card">
+                    <img src="images/grid/playa/phan-thiet.jpg" class="card-img-top" alt="Phan Thiet">
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis laboriosam rerum aspernatur facere! Dolorem quidem itaque amet ad id minus commodi, corporis praesentium sed nemo ab voluptatibus sapiente possimus atque.</p>
+                        <a href="#" class="btn btn-primary">Leer más</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card">
+                    <img src="images/grid/playa/phi phi.jpg" class="card-img-top" alt="Phi Phi">
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit dolorem neque, minus officia culpa blanditiis, odit quis laborum ducimus repellat iste praesentium voluptatibus obcaecati reiciendis dolore odio. Perferendis, incidunt beatae.</p>
+                        <a href="#" class="btn btn-primary">Leer más</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card">
+                    <img src="images/grid/playa/playa flamenco.jpg" class="card-img-top" alt="Playa Flamenco">
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis laboriosam rerum aspernatur facere! Dolorem quidem itaque amet ad id minus commodi, corporis praesentium sed nemo ab voluptatibus sapiente possimus atque.</p>
+                        <a href="#" class="btn btn-primary">Leer más</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card">
+                    <img src="images/grid/playa/playa paraiso.jpg" class="card-img-top" alt="Playa Paraiso">
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit dolorem neque, minus officia culpa blanditiis, odit quis laborum ducimus repellat iste praesentium voluptatibus obcaecati reiciendis dolore odio. Perferendis, incidunt beatae.</p>
+                        <a href="#" class="btn btn-primary">Leer más</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card">
+                    <img src="images/grid/playa/Prainhas do Pontal do Atalaia.jpg" class="card-img-top" alt="Prainhas do Pontal">
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis laboriosam rerum aspernatur facere! Dolorem quidem itaque amet ad id minus commodi, corporis praesentium sed nemo ab voluptatibus sapiente possimus atque.</p>
+                        <a href="#" class="btn btn-primary">Leer más</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card">
+                    <img src="images/grid/playa/rio de janeiro.jpg" class="card-img-top" alt="Rio de Janeiro">
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit dolorem neque, minus officia culpa blanditiis, odit quis laborum ducimus repellat iste praesentium voluptatibus obcaecati reiciendis dolore odio. Perferendis, incidunt beatae.</p>
+                        <a href="#" class="btn btn-primary">Leer más</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card">
+                    <img src="images/grid/playa/seven-mile-beach.jpg" class="card-img-top" alt="Seven Mile">
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis laboriosam rerum aspernatur facere! Dolorem quidem itaque amet ad id minus commodi, corporis praesentium sed nemo ab voluptatibus sapiente possimus atque.</p>
+                        <a href="#" class="btn btn-primary">Leer más</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card">
+                    <img src="images/grid/playa/santa monica.jpg" class="card-img-top" alt="Santa Monica">
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit dolorem neque, minus officia culpa blanditiis, odit quis laborum ducimus repellat iste praesentium voluptatibus obcaecati reiciendis dolore odio. Perferendis, incidunt beatae.</p>
+                        <a href="#" class="btn btn-primary">Leer más</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card">
+                    <img src="images/grid/playa/seychelles.jpg" class="card-img-top" alt="Seychelles">
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis laboriosam rerum aspernatur facere! Dolorem quidem itaque amet ad id minus commodi, corporis praesentium sed nemo ab voluptatibus sapiente possimus atque.</p>
+                        <a href="#" class="btn btn-primary">Leer más</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card">
+                    <img src="images/grid/playa/Turcas-y-Caicos.jpg" class="card-img-top" alt="Turc and caicos">
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit dolorem neque, minus officia culpa blanditiis, odit quis laborum ducimus repellat iste praesentium voluptatibus obcaecati reiciendis dolore odio. Perferendis, incidunt beatae.</p>
+                        <a href="#" class="btn btn-primary">Leer más</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Repite este bloque para las otras imágenes y textos descriptivos -->
+        </div>
+    </div>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 text-left">
+                    <p>Curso Fullstack Python - Codo a Codo 2023</p>
+                </div>
+                <div class="col-md-6"></div>
+                <div class="col-md-2 text-right">
+                    <p><span class="italic-text">design by</span> <span class="bold-text">FREDDY</span></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Enlace a Bootstrap JS y Popper.js (necesario para ciertas funcionalidades de Bootstrap) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Tu archivo script.js -->
+    <script src="app.js"></script>
+</body>
+</html>
